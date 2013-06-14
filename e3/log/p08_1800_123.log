@@ -1,0 +1,34 @@
+c WARNING: for repeatability, setting FPU to use double precision
+d VARIABLES            27610        
+d CONSTRAINTS          101398       
+c ============================[ Problem Statistics ]=============================
+c |                                                                             |
+c |  Number of variables:         27610                                         |
+c |  Number of clauses:          101398                                         |
+c |  Parse time:                   0.02 s                                       |
+c |                                                                             |
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c |       100 |   17822    76172   188041 |    27929       97     67 | 35.451 % |
+c |       250 |   17822    76122   187921 |    30722      247     87 | 35.451 % |
+c |       475 |   17822    76122   187921 |    33794      472    105 | 35.451 % |
+c |       812 |   17822    76122   187921 |    37174      809    109 | 35.451 % |
+c |      1318 |   17822    76122   187921 |    40891     1315    132 | 35.451 % |
+c ===============================================================================
+c restarts              : 12
+c conflicts             : 1789           (5734 /sec)
+c decisions             : 6649           (0.00 % random) (21310 /sec)
+c propagations          : 2277262        (7298472 /sec)
+c conflict literals     : 234440         (6.90 % deleted)
+d RESTARTS             12
+d FAILURES             1789         
+d NODES                6649         
+d BACKTRACKS           6649         
+d PROPAGATIONS         2277262      
+d NOGOODSIZE           131.05 
+d MEMORY               14.00 
+d TIME                 0.312019 
+
+s SATISFIABLE

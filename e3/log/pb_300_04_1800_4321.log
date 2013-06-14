@@ -1,0 +1,36 @@
+c WARNING: for repeatability, setting FPU to use double precision
+d VARIABLES            139760       
+d CONSTRAINTS          588798       
+c ============================[ Problem Statistics ]=============================
+c |                                                                             |
+c |  Number of variables:        139760                                         |
+c |  Number of clauses:          588798                                         |
+c |  Parse time:                   0.10 s                                       |
+c |                                                                             |
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c |       100 |  110197   512372  1247171 |   187869      100      5 | 21.153 % |
+c |       250 |  110151   512372  1247171 |   206656      249     22 | 21.186 % |
+c |       475 |  110151   512372  1247171 |   227322      474     38 | 21.186 % |
+c |       812 |  110149   512123  1246572 |   250054      784     49 | 21.187 % |
+c |      1318 |  110149   512123  1246572 |   275060     1290     63 | 21.187 % |
+c |      2077 |  110148   512108  1246534 |   302566     2046     71 | 21.188 % |
+c |      3216 |  110083   511686  1245515 |   332822     3094     70 | 21.234 % |
+c ===============================================================================
+c restarts              : 25
+c conflicts             : 4663           (2112 /sec)
+c decisions             : 80281          (0.00 % random) (36357 /sec)
+c propagations          : 13906001       (6297614 /sec)
+c conflict literals     : 312350         (12.94 % deleted)
+d RESTARTS             25
+d FAILURES             4663         
+d NODES                80281        
+d BACKTRACKS           80281        
+d PROPAGATIONS         13906001     
+d NOGOODSIZE           66.98 
+d MEMORY               50.00 
+d TIME                 2.20814 
+
+s UNSATISFIABLE

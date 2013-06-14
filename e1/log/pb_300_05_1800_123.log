@@ -1,0 +1,34 @@
+c WARNING: for repeatability, setting FPU to use double precision
+d VARIABLES            121252       
+d CONSTRAINTS          437076       
+c ============================[ Problem Statistics ]=============================
+c |                                                                             |
+c |  Number of variables:        121252                                         |
+c |  Number of clauses:          437076                                         |
+c |  Parse time:                   0.07 s                                       |
+c |                                                                             |
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c |       100 |   94049   367834   925207 |   134872      100     13 | 22.435 % |
+c |       250 |   94049   367834   925207 |   148359      250     13 | 22.435 % |
+c |       475 |   94048   367834   925207 |   163195      474     11 | 22.436 % |
+c |       812 |   94048   367830   925197 |   179515      811     14 | 22.436 % |
+c |      1318 |   94038   367794   925107 |   197466     1307     17 | 22.444 % |
+c ===============================================================================
+c restarts              : 10
+c conflicts             : 1497           (4620 /sec)
+c decisions             : 11315          (0.00 % random) (34921 /sec)
+c propagations          : 2379410        (7343405 /sec)
+c conflict literals     : 24267          (16.44 % deleted)
+d RESTARTS             10
+d FAILURES             1497         
+d NODES                11315        
+d BACKTRACKS           11315        
+d PROPAGATIONS         2379410      
+d NOGOODSIZE           16.21 
+d MEMORY               33.00 
+d TIME                 0.32402 
+
+s UNSATISFIABLE

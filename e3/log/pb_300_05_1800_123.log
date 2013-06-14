@@ -1,0 +1,35 @@
+c WARNING: for repeatability, setting FPU to use double precision
+d VARIABLES            121252       
+d CONSTRAINTS          505143       
+c ============================[ Problem Statistics ]=============================
+c |                                                                             |
+c |  Number of variables:        121252                                         |
+c |  Number of clauses:          505143                                         |
+c |  Parse time:                   0.06 s                                       |
+c |                                                                             |
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c |       100 |   94049   435901  1061341 |   159830      100     18 | 22.435 % |
+c |       250 |   94049   435901  1061341 |   175813      250     24 | 22.435 % |
+c |       475 |   94049   435901  1061341 |   193394      475     40 | 22.435 % |
+c |       812 |   94049   435901  1061341 |   212734      812     40 | 22.435 % |
+c |      1318 |   94049   435901  1061341 |   234007     1318     41 | 22.435 % |
+c |      2077 |   94049   435901  1061341 |   257408     2077     38 | 22.435 % |
+c ===============================================================================
+c restarts              : 15
+c conflicts             : 2800           (4000 /sec)
+c decisions             : 12315          (0.00 % random) (17592 /sec)
+c propagations          : 4903657        (7004794 /sec)
+c conflict literals     : 97543          (23.42 % deleted)
+d RESTARTS             15
+d FAILURES             2800         
+d NODES                12315        
+d BACKTRACKS           12315        
+d PROPAGATIONS         4903657      
+d NOGOODSIZE           34.84 
+d MEMORY               43.00 
+d TIME                 0.700043 
+
+s UNSATISFIABLE

@@ -1,0 +1,33 @@
+c WARNING: for repeatability, setting FPU to use double precision
+d VARIABLES            22400        
+d CONSTRAINTS          88127        
+c ============================[ Problem Statistics ]=============================
+c |                                                                             |
+c |  Number of variables:         22400                                         |
+c |  Number of clauses:           88127                                         |
+c |  Parse time:                   0.01 s                                       |
+c |                                                                             |
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c |       100 |   15903    69651   171348 |    25538       99     77 | 29.004 % |
+c |       250 |   15903    69647   171338 |    28092      249    102 | 29.004 % |
+c |       475 |   15903    69647   171338 |    30901      474    145 | 29.004 % |
+c |       812 |   15903    69647   171338 |    33992      811    156 | 29.004 % |
+c ===============================================================================
+c restarts              : 7
+c conflicts             : 1029           (7566 /sec)
+c decisions             : 4511           (0.00 % random) (33167 /sec)
+c propagations          : 979750         (7203620 /sec)
+c conflict literals     : 155661         (16.80 % deleted)
+d RESTARTS             7
+d FAILURES             1029         
+d NODES                4511         
+d BACKTRACKS           4511         
+d PROPAGATIONS         979750       
+d NOGOODSIZE           151.27 
+d MEMORY               12.00 
+d TIME                 0.136008 
+
+s SATISFIABLE

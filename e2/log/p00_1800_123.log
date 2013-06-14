@@ -1,0 +1,34 @@
+c WARNING: for repeatability, setting FPU to use double precision
+d VARIABLES            20960        
+d CONSTRAINTS          83767        
+c ============================[ Problem Statistics ]=============================
+c |                                                                             |
+c |  Number of variables:         20960                                         |
+c |  Number of clauses:           83767                                         |
+c |  Parse time:                   0.01 s                                       |
+c |                                                                             |
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c |       100 |   15270    67675   165536 |    24814      100     62 | 27.147 % |
+c |       250 |   15270    67675   165536 |    27295      250     64 | 27.147 % |
+c |       475 |   15270    67675   165536 |    30025      475     77 | 27.147 % |
+c |       812 |   15270    67675   165536 |    33027      812     99 | 27.147 % |
+c |      1318 |   15270    67675   165536 |    36330     1318    124 | 27.147 % |
+c ===============================================================================
+c restarts              : 9
+c conflicts             : 1327           (8966 /sec)
+c decisions             : 4819           (0.00 % random) (32559 /sec)
+c propagations          : 979456         (6617544 /sec)
+c conflict literals     : 163999         (6.86 % deleted)
+d RESTARTS             9
+d FAILURES             1327         
+d NODES                4819         
+d BACKTRACKS           4819         
+d PROPAGATIONS         979456       
+d NOGOODSIZE           123.59 
+d MEMORY               11.00 
+d TIME                 0.148009 
+
+s SATISFIABLE

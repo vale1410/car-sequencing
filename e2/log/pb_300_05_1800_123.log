@@ -1,0 +1,39 @@
+c WARNING: for repeatability, setting FPU to use double precision
+d VARIABLES            102840       
+d CONSTRAINTS          456459       
+c ============================[ Problem Statistics ]=============================
+c |                                                                             |
+c |  Number of variables:        102840                                         |
+c |  Number of clauses:          456459                                         |
+c |  Parse time:                   0.06 s                                       |
+c |                                                                             |
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c |       100 |   86923   411559   998114 |   150904      100     37 | 15.477 % |
+c |       250 |   86923   411559   998114 |   165995      250     53 | 15.477 % |
+c |       475 |   86923   411559   998114 |   182595      475     48 | 15.477 % |
+c |       812 |   86923   411559   998114 |   200854      812     58 | 15.477 % |
+c |      1318 |   86923   411559   998114 |   220939     1318     73 | 15.477 % |
+c |      2077 |   86923   411559   998114 |   243033     2077     64 | 15.477 % |
+c |      3216 |   86923   411559   998114 |   267337     3216     57 | 15.477 % |
+c |      4924 |   86923   411559   998114 |   294071     4924     57 | 15.477 % |
+c |      7486 |   86923   411559   998114 |   323478     7486     59 | 15.477 % |
+c |     11330 |   86923   411559   998114 |   355826    11330     55 | 15.477 % |
+c ===============================================================================
+c restarts              : 61
+c conflicts             : 13779          (5703 /sec)
+c decisions             : 39299          (0.00 % random) (16265 /sec)
+c propagations          : 15643264       (6474456 /sec)
+c conflict literals     : 710633         (30.45 % deleted)
+d RESTARTS             61
+d FAILURES             13779        
+d NODES                39299        
+d BACKTRACKS           39299        
+d PROPAGATIONS         15643264     
+d NOGOODSIZE           51.57 
+d MEMORY               42.00 
+d TIME                 2.41615 
+
+s UNSATISFIABLE

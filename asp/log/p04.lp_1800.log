@@ -1,0 +1,26 @@
+clasp version 2.1.3
+Reading from asp/inst/p04.lp
+Solving...
+UNKNOWN
+
+TIME LIMIT  : 1
+Models      : 0+    
+Time        : 1800.000s (Solving: 1799.72s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 1792.960s
+Choices     : 4014310
+Conflicts   : 3169208
+Restarts    : 23     (Average: 137791.65 Last: 2244345)
+
+Atoms       : 53386  (Original: 5472 Auxiliary: 47914)
+Rules       : 109949 (1: 8143/109300 2: 549/0 3: 100/0)
+Bodies      : 93844 
+Equivalences: 111740 (Atom=Atom: 1893 Body=Body: 2300 Other: 107547)
+Tight       : Yes
+
+Variables   : 90053  (Eliminated:    0 Frozen:    0)
+Constraints : 244663 (Binary: 68.4% Ternary: 31.3% Other:  0.4%)
+Lemmas      : 3169208 (Binary:  0.1% Ternary:  0.2% Other: 99.7%)
+  Conflict  : 3169208 (Average Length: 258.0) 
+  Loop      : 0      (Average Length: 0.0) 
+  Other     : 0      (Average Length: 0.0)
+  Deleted   : 3103174

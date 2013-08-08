@@ -1,21 +1,44 @@
-car-sequencing
+Car-Sequencing
 ==============
 
-CNF generator for car-sequencing problems from http://www.cs.st-andrews.ac.uk/~ianm/CSPLib/prob/prob001/
+CNF encoder/decoder for car-sequencing problems from http://www.cs.st-andrews.ac.uk/~ianm/CSPLib/prob/prob001/
 
 Version info:
 
 ```bash
-./gen_sat -ver
+./car_encode -ver
 ```
 Help:
 
 ```bash
-./gen_sat -help
+./car_encode -help
 ```
 
 To generate models, e.g. model E3 with symmetry breaking:
 
 ```bash
-./gen_sat -file hard/p00.txt -e3 -sym
+./car_encode -f hard/p00.txt -e3 -sym
 ```
+
+If the one needs to study the solution there is a decoder that can be used
+with a generated symbol table. See the following example:
+
+```bash
+./car_encode -f easy/test.txt -e3 -symbol symbol.txt > problem.cnf
+lingeling problem.cnf > solution.txt
+./car_decode -sym symbol.txt -sol solution.txt
+```
+
+which should give the output as on the CSPLib website: 
+
+    Class Options req.
+    4	  1 0 1 0 0 
+    3	  0 1 0 1 0 
+    2	  0 1 0 0 1 
+    4	  1 0 1 0 0 
+    3	  0 1 0 1 0 
+    5	  1 1 0 0 0 
+    1	  0 0 0 1 0 
+    5	  1 1 0 0 0 
+    2	  0 1 0 0 1 
+    0	  1 0 1 1 0 

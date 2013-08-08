@@ -24,14 +24,13 @@ If the one needs to study the solution there is a decoder that can be used
 with a generated symbol table. See the following example:
 
 ```bash
-./car_encode -f easy/test.txt -e3 -symbol symbol.txt > problem.cnf
+./car_encode -f easy/test.txt -e3 -symbols symbols.txt > problem.cnf
 lingeling problem.cnf > solution.txt
-./car_decode -sym symbol.txt -sol solution.txt
+./car_decode -symbols symbols.txt -solution solution.txt
 ```
 
 which should give the output as on the CSPLib website: 
 
-    Class Options req.
     4	  1 0 1 0 0 
     3	  0 1 0 1 0 
     2	  0 1 0 0 1 

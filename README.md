@@ -1,7 +1,7 @@
 CNF Translations for the Car-Sequencing Problem
 =========================================
 
-CNF encoder/decoder for car-sequencing problems from http://www.cs.st-andrews.ac.uk/~ianm/CSPLib/prob/prob001/
+CNF encoder/decoder for car-sequencing problems from http://csplib.org/Problems/prob001/
 
 The linux 64bit binaries are available here. Source code is available on request.  
 
